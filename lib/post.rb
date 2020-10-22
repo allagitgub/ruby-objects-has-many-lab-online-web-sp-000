@@ -26,6 +26,10 @@ class Post
   end
 
   def author_name
-    author.name
+    if(artist != nil)
+      author.name
+    else
+      nil
+    end
   end
 end
