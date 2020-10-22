@@ -24,4 +24,8 @@ class Post
   def self.song_count
     Song.all.count
   end
+
+  def author_name
+    author.name
+  end
 end
